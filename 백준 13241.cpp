@@ -14,8 +14,7 @@ int main() {
 		tmp = a;
 		a = b;
 		b = tmp;
-	} // Å« ¼ýÀÚ°¡ a, ÀÛÀº ¼ýÀÚ°¡ b
-	
+	} // 큰수는 a, 작은수는 b
 	while (b!=0) {
 		tmp = b;
 		b= a % b;
